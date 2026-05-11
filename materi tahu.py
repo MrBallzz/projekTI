@@ -76,7 +76,7 @@ if menu == "🏠 Beranda":
         # Link Maps (Pencarian Alamat)
         st.link_button("🗺️ Lihat di Google Maps", "https://www.google.com/maps/search/Jl.+Babakan+ujung+RT.03%2FRW.03,+Cilebut+Barat")
 
-    st.image("https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?w=800", caption="Tahu Segar Siap Olah")
+    st.image("https://www.magnific.com/premium-photo/close-up-raw-tahu-kuning-yellow-tofu-bamboo-basket_34969718.htm", caption="Tahu Segar Siap Olah")
 
 # --- KONTEN SEJARAH ---
 elif menu == "Sejarah Tahu":
