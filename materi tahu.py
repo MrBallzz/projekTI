@@ -40,7 +40,7 @@ menu = st.sidebar.radio("Pilih Topik:", [
 
 # --- KONTEN BERANDA (HOMEPAGE) ---
 if menu == "🏠 Beranda":
-    st.title("🍲 Selamat Datang di Dunia Tahu")
+    st.title("🍲 Selamat Datang di TAHU BANDUNG SPESIAL IDOLA")
     st.write("Temukan segala hal tentang tahu, dari sejarah, nutrisi, hingga resep lezat di sini.")
     
     st.divider()
