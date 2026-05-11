@@ -77,7 +77,7 @@ elif menu == "Cara Pembuatan":
     for i, step in enumerate(steps, 1):
         st.write(f"{i}. {step}")
 
-elif menu == "5 Resep Sederhana":
+elif menu == "Resep Sederhana":
     st.header("🍳 Resep Masakan Tahu")
     st.write("Klik pada judul resep untuk melihat bahan dan langkah pembuatan.")
 
