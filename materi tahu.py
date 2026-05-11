@@ -174,4 +174,4 @@ elif menu == "Cara Menyimpan Tahu":
 
 # --- Footer ---
 st.divider()
-st.caption("Dibuat dengan Python & Streamlit | Tahu Bandung Spesial Idola © 2026")
+st.caption("Dibuat OLEH KELOMPOK 6 | Tahu Bandung Spesial Idola © 2026")
