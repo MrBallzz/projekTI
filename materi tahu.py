@@ -76,7 +76,7 @@ if menu == "🏠 Beranda":
         # Link Maps (Pencarian Alamat)
         st.link_button("🗺️ Lihat di Google Maps", "https://www.google.com/maps/search/Jl.+Babakan+ujung+RT.03%2FRW.03,+Cilebut+Barat")
 
-    st.image("https://www.magnific.com/premium-photo/close-up-raw-tahu-kuning-yellow-tofu-bamboo-basket_34969718.htm", caption="Tahu Segar Siap Olah")
+    st.image("https://images.genpi.co/resize/1200x675-100/uploads/arsip/normal/2023/06/22/5-manfaat-makan-tahu-kuning-ternyata-dahsyat-rugi-rnbt.webp", caption="Tahu Segar Siap Olah")
 
 # --- KONTEN SEJARAH ---
 elif menu == "Sejarah Tahu":
