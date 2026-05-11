@@ -26,7 +26,7 @@ menu = st.sidebar.radio("Pilih Topik:", [
     "Sejarah Tahu", 
     "Kandungan & Manfaat", 
     "Cara Pembuatan", 
-    "5 Resep Sederhana",
+    "Resep Sederhana",
     "Cara Menyimpan Tahu"
 ])
 
