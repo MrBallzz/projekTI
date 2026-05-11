@@ -34,7 +34,7 @@ menu = st.sidebar.radio("Pilih Topik:", [
     "Sejarah Tahu", 
     "Kandungan & Manfaat", 
     "Cara Pembuatan", 
-    "5 Resep Sederhana",
+    "Resep Sederhana",
     "Cara Menyimpan Tahu"
 ])
 
@@ -122,7 +122,7 @@ elif menu == "Cara Pembuatan":
         st.write(f"{i}. {step}")
 
 # --- KONTEN RESEP ---
-elif menu == "5 Resep Sederhana":
+elif menu == "Resep Sederhana":
     st.header("🍳 Resep Masakan Tahu")
     st.write("Klik pada judul resep untuk melihat bahan, langkah, dan video tutorialnya.")
 
