@@ -77,9 +77,9 @@ elif menu == "Cara Pembuatan":
     for i, step in enumerate(steps, 1):
         st.write(f"{i}. {step}")
 
-elif menu == "Resep Sederhana":
+elif menu == "5 Resep Sederhana":
     st.header("🍳 Resep Masakan Tahu")
-    st.write("Klik pada judul resep untuk melihat bahan dan langkah pembuatan.")
+    st.write("Klik pada judul resep untuk melihat bahan, langkah, dan video tutorialnya.")
 
     # Resep 1: Tahu Cabai Garam
     with st.expander("🌶️ Tahu Cabai Garam"):
@@ -89,6 +89,7 @@ elif menu == "Resep Sederhana":
             st.markdown("**Bahan:**\n- 1 blok tahu putih\n- 3 sdm maizena\n- 5 siung baput\n- 10 cabai rawit\n- Daun bawang\n- Garam & kaldu")
         with col2:
             st.markdown("**Langkah:**\n1. Balur tahu dengan maizena.\n2. Goreng hingga garing.\n3. Tumis bumbu hingga harum.\n4. Masukkan tahu, aduk rata.")
+        st.link_button("📺 Tonton Tutorial di YouTube", "https://youtu.be/y6eRAgaqi7I?si=V-EUpYVfR-Rf8rxq")
 
     # Resep 2: Semur Tahu Kentang
     with st.expander("🍯 Semur Tahu Kentang"):
@@ -103,6 +104,7 @@ elif menu == "Resep Sederhana":
         3. Tambahkan kecap dan air (300ml).
         4. Masak hingga meresap.
         """)
+        st.link_button("📺 Tonton Tutorial di YouTube", "https://youtu.be/borc_QEvzLw?si=WPVKwgn8qJNOug-x")
 
     # Resep 3: Tahu Telur Jatim
     with st.expander("🥜 Tahu Telur Khas Jawa Timur"):
@@ -116,6 +118,7 @@ elif menu == "Resep Sederhana":
         2. Ulek bumbu saus hingga kekentalan pas.
         3. Tata telur tahu & tauge, siram saus.
         """)
+        st.link_button("📺 Tonton Tutorial di YouTube", "https://youtu.be/3sxYn_zKivw?si=cu3jQEeTDC4oBD8W")
 
     # Resep 4: Pepes Tahu Kemangi
     with st.expander("🍃 Pepes Tahu Kemangi"):
@@ -129,6 +132,7 @@ elif menu == "Resep Sederhana":
         2. Bungkus dengan daun pisang.
         3. Kukus 20-25 menit.
         """)
+        st.link_button("📺 Tonton Tutorial di YouTube", "https://youtu.be/5sXx5xVf_p0?si=0OoFracT4y54dv7L")
 
     # Resep 5: Tahu Mapo
     with st.expander("🏮 Tahu Mapo (Mapo Tofu)"):
@@ -142,6 +146,7 @@ elif menu == "Resep Sederhana":
         3. Masukkan tahu sutra perlahan.
         4. Kentalkan dengan larutan maizena.
         """)
+        st.link_button("📺 Tonton Tutorial di YouTube", "https://youtu.be/_NICwQILeTo?si=hDlnmpH_Q3R-DamX")
 
 elif menu == "Cara Menyimpan Tahu":
     st.header("🧊 Tips Penyimpanan Tahu")
